@@ -1,0 +1,27 @@
+.venues-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.venue-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.venue-image-container {
+    width: 300px !important;  /* Fixed width */
+    height: 200px !important; /* Fixed height */
+    overflow: hidden;
+}
+
+.venue-image {
+    width: 300px !important;  /* Force the width */
+    height: 200px !important; /* Force the height */
+    object-fit: cover !important;
+    object-position: center;
+}

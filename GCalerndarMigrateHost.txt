@@ -1,0 +1,23 @@
+Here's a checklist for moving your application from local to hosting:
+Google Cloud Console Updates
+[ ] Go to Google Cloud Console
+[ ] Add production domain to "Authorized JavaScript origins":
+- [ ] Add production callback URL to "Authorized redirect URIs":
+Update credentials.json
+[ ] Edit storage/app/google-calendar/credentials.json:
+Environment File Updates
+[ ] Update .env on production server:
+4. Server Setup Commands
+SSL Requirements
+[ ] Ensure SSL certificate is installed
+[ ] Configure HTTPS for your domain
+[ ] Test HTTPS is working properly
+Final Checks
+[ ] Test Google Calendar integration with a test account
+[ ] Verify all booking features work
+[ ] Check timezone settings are correct
+[ ] Ensure error logging is configured properly
+Backup
+[ ] Backup your database before deployment
+[ ] Keep a copy of your local working configuration
+Would you like me to provide more details about any of these steps?
